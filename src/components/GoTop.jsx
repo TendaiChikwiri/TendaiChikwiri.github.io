@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import upArrow from "../images/up-arrow.svg"
 
 const GoTop = ({ isVisible, scrollToTop }) => {
 
   return (
     <>
       {isVisible ? (<button onClick={scrollToTop} id="myBtn" title="Go to top">
-        <span className="material-icons"> arrow_upward </span>
+        <img src={upArrow} alt="" />
       </button>) : ""}
     </>
   )
