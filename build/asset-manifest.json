@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "./static/css/main.4baa5595.chunk.css",
+    "main.js": "./static/js/main.3bea93cf.chunk.js",
+    "main.js.map": "./static/js/main.3bea93cf.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.478c4bdc.js",
+    "runtime-main.js.map": "./static/js/runtime-main.478c4bdc.js.map",
+    "static/js/2.cef9bc1f.chunk.js": "./static/js/2.cef9bc1f.chunk.js",
+    "static/js/2.cef9bc1f.chunk.js.map": "./static/js/2.cef9bc1f.chunk.js.map",
+    "static/js/3.2166b1a5.chunk.js": "./static/js/3.2166b1a5.chunk.js",
+    "static/js/3.2166b1a5.chunk.js.map": "./static/js/3.2166b1a5.chunk.js.map",
+    "static/js/4.6c2c9f84.chunk.js": "./static/js/4.6c2c9f84.chunk.js",
+    "static/js/4.6c2c9f84.chunk.js.map": "./static/js/4.6c2c9f84.chunk.js.map",
+    "static/js/5.4bba6c36.chunk.js": "./static/js/5.4bba6c36.chunk.js",
+    "static/js/5.4bba6c36.chunk.js.map": "./static/js/5.4bba6c36.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.4baa5595.chunk.css.map": "./static/css/main.4baa5595.chunk.css.map",
+    "static/js/2.cef9bc1f.chunk.js.LICENSE.txt": "./static/js/2.cef9bc1f.chunk.js.LICENSE.txt",
+    "static/media/TC-logo.24291bfa.svg": "./static/media/TC-logo.24291bfa.svg",
+    "static/media/api.9ec26cfe.svg": "./static/media/api.9ec26cfe.svg",
+    "static/media/css.3644e608.svg": "./static/media/css.3644e608.svg",
+    "static/media/externalLink.213beb65.svg": "./static/media/externalLink.213beb65.svg",
+    "static/media/github.svg": "./static/media/github.df941249.svg",
+    "static/media/html.bfe202ac.svg": "./static/media/html.bfe202ac.svg",
+    "static/media/javascript.svg": "./static/media/javascript.00f3e5cf.svg",
+    "static/media/nextjs.svg": "./static/media/nextjs.4f67222b.svg",
+    "static/media/pixeltrue-web-development.53b57c3d.svg": "./static/media/pixeltrue-web-development.53b57c3d.svg",
+    "static/media/python.e6d7dc73.svg": "./static/media/python.e6d7dc73.svg",
+    "static/media/react.svg": "./static/media/react.ee97676b.svg",
+    "static/media/sass.svg": "./static/media/sass.8aa78a83.svg",
+    "static/media/tailwindcss.svg": "./static/media/tailwindcss.68603ef4.svg",
+    "static/media/typescript.a6305a73.svg": "./static/media/typescript.a6305a73.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.478c4bdc.js",
+    "static/js/2.cef9bc1f.chunk.js",
+    "static/css/main.4baa5595.chunk.css",
+    "static/js/main.3bea93cf.chunk.js"
+  ]
+}
