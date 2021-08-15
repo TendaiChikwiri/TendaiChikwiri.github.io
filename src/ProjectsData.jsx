@@ -16,23 +16,23 @@ const ProjectsData = [
     links: ["https://github.com/TendaiChikwiri/weather-app", "https://weather-app-neon-ten.vercel.app/"]
   },
   {
-    name: "To Do App",
-    description: " React Todo App built with TypeScript, ReactJS and tailwindCSS that stores tasks and stores them in local storage.",
-    technologies: [TypeScript, React, Tailwind],
-    links: ["https://github.com/TendaiChikwiri/todo-app", "https://tendaichikwiri.github.io/todo-app"]
-  },
-  {
     name: "Tip Calculator",
     description: "Calculator app that calculates the tip based on a percentage and can also splits the bill between multiple people",
     technologies: [HTML, Sass, JavaScript],
     links: ["https://github.com/TendaiChikwiri/tip-calculator-app", "https://tendaichikwiri.github.io/tip-calculator-app/"]
   },
   {
-    mame: "Tik Tak Toe",
+    name: "Tik Tak Toe",
     description: "Tik Tak Toe game built with HTML, CSS & JavaScript",
     technologies: [HTML, CSS, JavaScript],
     links: ["https://github.com/TendaiChikwiri/tic-tac-toe", "https://tendaichikwiri.github.io/tic-tac-toe/"]
-  }
+  },
+  {
+    name: "To Do App",
+    description: " React Todo App built with TypeScript, ReactJS and tailwindCSS that stores tasks and stores them in local storage.",
+    technologies: [TypeScript, React, Tailwind],
+    links: ["https://github.com/TendaiChikwiri/todo-app", "https://tendaichikwiri.github.io/todo-app"]
+  },
 
 ]
 

@@ -6,6 +6,7 @@ import externalLink from "../images/externalLink.svg"
 
 
 const Portfolio = () => {
+  console.log(ProjectsData)
   return (
     <section id="portfolio">
       <h1 className="portfolio-heading">Portfolio</h1>
