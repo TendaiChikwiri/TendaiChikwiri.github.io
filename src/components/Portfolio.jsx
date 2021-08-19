@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectsData from "../ProjectsData"
 
 import GitHub from "../images/github.svg";
-import externalLink from "../images/externalLink.svg"
+import externalLink from "../images/externalLink.svg";
 
 
 const Portfolio = () => {
