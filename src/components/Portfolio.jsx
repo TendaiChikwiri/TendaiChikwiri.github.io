@@ -11,7 +11,6 @@ import { ExternalLinkIcon } from "@chakra-ui/icons";
 import ProjectsData from "../ProjectsData";
 const GitHub = "./images/github.svg";
 
-
 const Portfolio = () => {
   return (
     <Box py="20" id="Portfolio">
@@ -50,7 +49,7 @@ const Portfolio = () => {
               <Link href={project.links[0]} isExternal>
                 <Image boxSize="1.5rem" mx="2" src={GitHub} alt="GitHub" />
               </Link>
-              <Link href={project.links[1]} isExternal>
+              <Link href={project.links[1]} isExternal alt="External Link">
                 <ExternalLinkIcon mx="2" fontSize="1.5rem" />
               </Link>
             </Flex>

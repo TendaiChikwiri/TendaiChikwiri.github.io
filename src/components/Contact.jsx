@@ -17,8 +17,6 @@ import {
 
 import emailjs from "emailjs-com";
 
-
-
 const Contact = () => {
   const [loading, setLoading] = useState(false);
 
@@ -91,7 +89,11 @@ const Contact = () => {
           <form id="contact-form" onSubmit={sendEmail}>
             <input type="hidden" name="contact_number" />
             <FormControl isRequired mb="2">
-              <FormLabel fontWeight="semibold" fontSize="lg">
+              <FormLabel
+                htmlFor="user_name"
+                fontWeight="semibold"
+                fontSize="lg"
+              >
                 Name
               </FormLabel>
               <Input
@@ -103,7 +105,7 @@ const Contact = () => {
               />
             </FormControl>
             <FormControl isRequired mb="2">
-              <FormLabel fontWeight="semibold" fontSize="lg">
+              <FormLabel htmlFor="email" fontWeight="semibold" fontSize="lg">
                 Email address
               </FormLabel>
               <Input
@@ -115,11 +117,11 @@ const Contact = () => {
               />
             </FormControl>
             <FormControl isRequired mb="2">
-              <FormLabel fontWeight="semibold" fontSize="lg">
+              <FormLabel htmlFor="message" fontWeight="semibold" fontSize="lg">
                 Message
               </FormLabel>
               <Textarea id="message" name="message" bg="white" />
-              <FormHelperText>
+              <FormHelperText sx={{ color: "black" }}>
                 I&apos;d like to hear your thoughts
               </FormHelperText>
             </FormControl>
