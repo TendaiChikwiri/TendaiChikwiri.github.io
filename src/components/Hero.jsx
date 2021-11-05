@@ -7,8 +7,8 @@ const Hero = () => {
         Front-end Web Developer
       </Heading>
       <Text maxWidth="40ch" mt="10" fontSize="xl">
-        Highly skilled and passionate self-taught front-end web developer. I
-        develop modern, user-friendly, accessible and responsive websites
+        Highly skilled and passionate front-end web developer. I develop modern,
+        user-friendly, accessible and responsive websites
       </Text>
     </Box>
   );
