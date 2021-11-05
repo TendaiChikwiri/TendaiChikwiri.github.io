@@ -1,6 +1,5 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
 
-
 const Hero = () => {
   return (
     <Box>
@@ -9,8 +8,7 @@ const Hero = () => {
       </Heading>
       <Text maxWidth="40ch" mt="10" fontSize="xl">
         Highly skilled and passionate self-taught front-end web developer. I
-        design and develop websites and apps with custom graphics, photos,
-        videos and animations.
+        develop modern, user-friendly, accessible and responsive websites
       </Text>
     </Box>
   );
