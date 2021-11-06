@@ -38,9 +38,9 @@ a {
     width: $size;
     animation-delay: -$i * 0.1s;
     transform: translate3d(
-      (random(180) * 1vw),
-      (random(180) * 1vh),
-      (random(200) * 1px)
+      (random(90) * 1vw),
+      (random(90) * 1vh),
+      (random(100) * 1px)
     );
     background: hsl(random(360), 70%, 50%);
     // background: black;
