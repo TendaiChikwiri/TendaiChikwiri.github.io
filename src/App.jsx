@@ -20,7 +20,7 @@ const theme = extendTheme({
 });
 
 const config = {
-  initialColorMode: "light",
+  initialColorMode: "dark",
   useSystemColorMode: false,
 };
 

@@ -61,9 +61,12 @@ const Portfolio = () => {
       <Box align="center" my="4">
         <Tooltip label="Github Profile">
           <Button variant="outline">
-            <a href="https://github.com/TendaiChikwiri?tab=repositories">
+            <Link
+              href="https://github.com/TendaiChikwiri?tab=repositories"
+              isExternal
+            >
               See More on GitHub
-            </a>
+            </Link>
           </Button>
         </Tooltip>
       </Box>

@@ -8,7 +8,6 @@ import {
 } from "@chakra-ui/react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 
-
 const NavMenu = () => {
   return (
     <Menu>
