@@ -6,6 +6,7 @@ import {
   Image,
   Link,
   Button,
+  Tooltip,
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import ProjectsData from "../ProjectsData";
@@ -37,31 +38,34 @@ const Portfolio = () => {
                   m="1"
                   disabled
                   fontSize="small"
-                  _hover={{
-                    backgroundColor: "gray.200",
-                  }}
                 >
                   {technology}
                 </Box>
               ))}
             </Flex>
             <Flex className="link" justify="flex-start">
-              <Link href={project.links[0]} isExternal>
-                <Image boxSize="1.5rem" mx="2" src={GitHub} alt="GitHub" />
-              </Link>
-              <Link href={project.links[1]} isExternal alt="External Link">
-                <ExternalLinkIcon mx="2" fontSize="1.5rem" />
-              </Link>
+              <Tooltip label="Repository">
+                <Link href={project.links[0]} isExternal>
+                  <Image boxSize="1.5rem" mx="2" src={GitHub} alt="GitHub" />
+                </Link>
+              </Tooltip>
+              <Tooltip label="Live Site">
+                <Link href={project.links[1]} isExternal alt="External Link">
+                  <ExternalLinkIcon mx="2" fontSize="1.5rem" />
+                </Link>
+              </Tooltip>
             </Flex>
           </Flex>
         ))}
       </Flex>
       <Box align="center" my="4">
-        <Button variant="outline">
-          <a href="https://github.com/TendaiChikwiri?tab=repositories">
-            See More on GitHub
-          </a>
-        </Button>
+        <Tooltip label="Github Profile">
+          <Button variant="outline">
+            <a href="https://github.com/TendaiChikwiri?tab=repositories">
+              See More on GitHub
+            </a>
+          </Button>
+        </Tooltip>
       </Box>
     </Box>
   );
