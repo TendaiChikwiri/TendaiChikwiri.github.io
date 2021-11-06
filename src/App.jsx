@@ -1,10 +1,11 @@
 import {
   ChakraProvider,
   extendTheme,
-  ColorModeScript, Container
+  ColorModeScript,
+  Container,
 } from "@chakra-ui/react";
 import "@fontsource/nunito";
-import "./App.scss"
+import "./App.scss";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
@@ -28,7 +29,7 @@ const colorTheme = extendTheme({ config });
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <ColorModeScript initialColorMode={colorTheme.config.initialColorMode} />
+      {/* <ColorModeScript initialColorMode={colorTheme.config.initialColorMode} /> */}
       <Particles />
       <Container maxWidth="container.md" sx={{ position: "relative" }}>
         <Navbar />
@@ -37,7 +38,7 @@ function App() {
         <Contact />
       </Container>
     </ChakraProvider>
-  )
+  );
 }
 
 export default App;
