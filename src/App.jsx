@@ -29,7 +29,7 @@ const colorTheme = extendTheme({ config });
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      {/* <ColorModeScript initialColorMode={colorTheme.config.initialColorMode} /> */}
+      <ColorModeScript initialColorMode={colorTheme.config.initialColorMode} />
       <Particles />
       <Container maxWidth="container.md" sx={{ position: "relative" }}>
         <Navbar />

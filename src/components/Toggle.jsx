@@ -1,12 +1,17 @@
 import { Button, useColorMode } from "@chakra-ui/react";
+import { SunIcon, MoonIcon } from "@chakra-ui/icons";
 
-interface Props {}
-
-const Toggle = (props: Props) => {
+const Toggle = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
-    <Button onClick={toggleColorMode}>
-      Toggle {colorMode === "light" ? "Dark" : "Light"}
+    <Button
+      onClick={toggleColorMode}
+      variant="outline"
+      sx={{
+        transition: "all ease-out 1s",
+      }}
+    >
+      {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
     </Button>
   );
 };

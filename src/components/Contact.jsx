@@ -84,7 +84,7 @@ const Contact = () => {
           border="1px"
           borderColor="#0000001a"
           borderRadius="md"
-          boxShadow="base"
+          boxShadow="xl"
         >
           <form id="contact-form" onSubmit={sendEmail}>
             <input type="hidden" name="contact_number" />
@@ -121,7 +121,7 @@ const Contact = () => {
                 Message
               </FormLabel>
               <Textarea id="message" name="message" bg="white" />
-              <FormHelperText sx={{ color: "black" }}>
+              <FormHelperText>
                 I&apos;d like to hear your thoughts
               </FormHelperText>
             </FormControl>
@@ -129,7 +129,6 @@ const Contact = () => {
               id="submit-btn"
               type="submit"
               value="Send"
-              bg="white"
               // colorScheme="teal"
               variant="outline"
               my="4"
