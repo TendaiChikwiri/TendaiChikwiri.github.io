@@ -96,13 +96,7 @@ const Contact = () => {
               >
                 Name
               </FormLabel>
-              <Input
-                id="user_name"
-                name="user_name"
-                bg="white"
-                color="black"
-                placeholder="Name"
-              />
+              <Input id="user_name" name="user_name" placeholder="Name" />
             </FormControl>
             <FormControl isRequired mb="2">
               <FormLabel htmlFor="email" fontWeight="semibold" fontSize="lg">
@@ -112,7 +106,6 @@ const Contact = () => {
                 id="email"
                 type="email"
                 name="user_email"
-                bg="white"
                 placeholder="Email"
               />
             </FormControl>
@@ -120,7 +113,7 @@ const Contact = () => {
               <FormLabel htmlFor="message" fontWeight="semibold" fontSize="lg">
                 Message
               </FormLabel>
-              <Textarea id="message" name="message" bg="white" />
+              <Textarea id="message" name="message" />
               <FormHelperText>
                 I&apos;d like to hear your thoughts
               </FormHelperText>
