@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.62ff65a4.chunk.css",
-    "main.js": "/static/js/main.2deb3986.chunk.js",
-    "main.js.map": "/static/js/main.2deb3986.chunk.js.map",
+    "main.css": "/static/css/main.1bcc9d5f.chunk.css",
+    "main.js": "/static/js/main.16214635.chunk.js",
+    "main.js.map": "/static/js/main.16214635.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7ee3d93e.js",
     "runtime-main.js.map": "/static/js/runtime-main.7ee3d93e.js.map",
     "static/css/2.234490a8.chunk.css": "/static/css/2.234490a8.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.6e674f45.chunk.js.map": "/static/js/2.6e674f45.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.234490a8.chunk.css.map": "/static/css/2.234490a8.chunk.css.map",
-    "static/css/main.62ff65a4.chunk.css.map": "/static/css/main.62ff65a4.chunk.css.map",
+    "static/css/main.1bcc9d5f.chunk.css.map": "/static/css/main.1bcc9d5f.chunk.css.map",
     "static/js/2.6e674f45.chunk.js.LICENSE.txt": "/static/js/2.6e674f45.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/nunito-vietnamese-400-normal.8afa535b.woff2"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.7ee3d93e.js",
     "static/css/2.234490a8.chunk.css",
     "static/js/2.6e674f45.chunk.js",
-    "static/css/main.62ff65a4.chunk.css",
-    "static/js/main.2deb3986.chunk.js"
+    "static/css/main.1bcc9d5f.chunk.css",
+    "static/js/main.16214635.chunk.js"
   ]
 }
