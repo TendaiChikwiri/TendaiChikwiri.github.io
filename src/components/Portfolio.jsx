@@ -26,7 +26,7 @@ const Portfolio = () => {
             borderRadius="md"
           >
             <Heading size="md">{project.name}</Heading>
-            <Text>{project.description}</Text>
+            <Text maxWidth="50ch">{project.description}</Text>
             <Flex className="technologies" my="4">
               {project.technologies.map((technology, index) => (
                 <Box
@@ -44,12 +44,12 @@ const Portfolio = () => {
               ))}
             </Flex>
             <Flex className="link" justify="flex-start">
-              <Tooltip label="Repository">
+              <Tooltip label="Repository" hasArrow>
                 <Link href={project.links[0]} isExternal>
                   <Image boxSize="1.5rem" mx="2" src={GitHub} alt="GitHub" />
                 </Link>
               </Tooltip>
-              <Tooltip label="Live Site">
+              <Tooltip label="Live Site" hasArrow>
                 <Link href={project.links[1]} isExternal alt="External Link">
                   <ExternalLinkIcon mx="2" fontSize="1.5rem" />
                 </Link>
@@ -59,7 +59,7 @@ const Portfolio = () => {
         ))}
       </Flex>
       <Box align="center" my="4">
-        <Tooltip label="Github Profile">
+        <Tooltip label="Github Repository" hasArrow>
           <Button variant="outline">
             <Link
               href="https://github.com/TendaiChikwiri?tab=repositories"

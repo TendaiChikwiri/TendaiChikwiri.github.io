@@ -1,9 +1,4 @@
-import {
-  ChakraProvider,
-  extendTheme,
-  ColorModeScript,
-  Container,
-} from "@chakra-ui/react";
+import { ChakraProvider, extendTheme, Container } from "@chakra-ui/react";
 import "@fontsource/nunito";
 import "./App.scss";
 import Navbar from "./components/Navbar";
@@ -12,24 +7,16 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Particles from "./components/Particles";
 
-const theme = extendTheme({
+const fontTheme = extendTheme({
   fonts: {
     heading: "Nunito",
     body: "Nunito",
   },
 });
 
-const config = {
-  initialColorMode: "dark",
-  useSystemColorMode: false,
-};
-
-const colorTheme = extendTheme({ config });
-
 function App() {
   return (
-    <ChakraProvider theme={theme}>
-      <ColorModeScript initialColorMode={colorTheme.config.initialColorMode} />
+    <ChakraProvider theme={fontTheme}>
       <Particles />
       <Container maxWidth="container.md" sx={{ position: "relative" }}>
         <Navbar />
