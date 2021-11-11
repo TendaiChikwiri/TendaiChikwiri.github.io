@@ -11,10 +11,10 @@ const Hero = () => {
       </Heading>
 
       <Text maxWidth="40ch" mt="10" fontSize="xl">
-        Highly motivated self-taught web developer committed to pursuing a
-        long-term career change in front-end web development. I primarily use
-        Javascript and Python but picking up a new language or framework isn't a
-        problem for me.
+        Highly motivated web developer committed to pursuing a long-term career
+        change in front-end web development. I primarily use Javascript and
+        Python but picking up a new language or framework isn't a problem for
+        me.
       </Text>
     </Box>
   );
