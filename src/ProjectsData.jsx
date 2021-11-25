@@ -1,14 +1,12 @@
-
-
 const ProjectsData = [
   {
-    name: "Weather App",
+    name: "Sunnyside Agency Landing Page",
     description:
-      "Weather application that shows current weather conditions fetched from an API for searched location",
-    technologies: ["API", "NextJS"],
+      "This is a solution to the Sunnyside agency landing page challenge on Frontend Mentor.",
+    technologies: ["HTML", "Sass", "JavaScript"],
     links: [
-      "https://github.com/TendaiChikwiri/weather-app",
-      "https://weather-app-neon-ten.vercel.app/",
+      "https://github.com/TendaiChikwiri/sunnyside-agency",
+      "https://tendaichikwiri.github.io/sunnyside-agency/",
     ],
   },
   {
@@ -41,13 +39,13 @@ const ProjectsData = [
     ],
   },
   {
-    name: "Sunnyside Agency Landing Page",
+    name: "Weather App",
     description:
-      "This is a solution to the Sunnyside agency landing page challenge on Frontend Mentor.",
-    technologies: ["HTML", "Sass", "JavaScript"],
+      "Weather application that shows current weather conditions fetched from an API for searched location",
+    technologies: ["API", "NextJS"],
     links: [
-      "https://github.com/TendaiChikwiri/sunnyside-agency",
-      "https://tendaichikwiri.github.io/sunnyside-agency/",
+      "https://github.com/TendaiChikwiri/weather-app",
+      "https://weather-app-neon-ten.vercel.app/",
     ],
   },
 ];

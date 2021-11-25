@@ -6,6 +6,8 @@ import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Particles from "./components/Particles";
+import Footer from "./components/Footer";
+// import TechStack from "./components/TechStack";
 
 const fontTheme = extendTheme({
   fonts: {
@@ -22,7 +24,9 @@ function App() {
         <Navbar />
         <Hero />
         <Portfolio />
+        {/* <TechStack /> */}
         <Contact />
+        <Footer />
       </Container>
     </ChakraProvider>
   );
