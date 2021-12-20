@@ -8,6 +8,7 @@ const ProjectsData = [
       "https://github.com/TendaiChikwiri/sunnyside-agency",
       "https://tendaichikwiri.github.io/sunnyside-agency/",
     ],
+    screenshot: "./images/screenshots/sunnyside-agency.png",
   },
   {
     name: "Tip Calculator",
@@ -18,6 +19,7 @@ const ProjectsData = [
       "https://github.com/TendaiChikwiri/tip-calculator-app",
       "https://tendaichikwiri.github.io/tip-calculator-app/",
     ],
+    screenshot: "./images/screenshots/tip-calculator.png",
   },
   {
     name: "Tik Tak Toe",
@@ -27,6 +29,7 @@ const ProjectsData = [
       "https://github.com/TendaiChikwiri/tic-tac-toe",
       "https://tendaichikwiri.github.io/tic-tac-toe/",
     ],
+    screenshot: "./images/screenshots/tic-tac-toe.png",
   },
   {
     name: "To Do App",
@@ -37,6 +40,7 @@ const ProjectsData = [
       "https://github.com/TendaiChikwiri/todo-app",
       "https://tendaichikwiri.github.io/todo-app",
     ],
+    screenshot: "./images/screenshots/todo-app.png",
   },
   {
     name: "Weather App",
@@ -47,6 +51,7 @@ const ProjectsData = [
       "https://github.com/TendaiChikwiri/weather-app",
       "https://weather-app-neon-ten.vercel.app/",
     ],
+    screenshot: "./images/screenshots/weather-app.png",
   },
 ];
 
