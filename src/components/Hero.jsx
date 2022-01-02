@@ -3,9 +3,9 @@ import { Box, Heading, Text } from "@chakra-ui/react";
 const Hero = () => {
   return (
     <Box>
-      <Heading as="h1" size="2xl" maxWidth="20ch" mt="10">
+      <Heading size="3xl" maxWidth="20ch" mt="10">
         Tendai Chikwiri
-        <Text fontWeight="light" fontSize="lg">
+        <Text fontWeight="light" fontSize="2xl">
           Front-end Web Developer
         </Text>
       </Heading>
