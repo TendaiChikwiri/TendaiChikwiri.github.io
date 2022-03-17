@@ -39,7 +39,7 @@ const NavMenu = () => {
         <MenuItem>
           <Link
             w="100%"
-            href="https://drive.google.com/file/d/1ZIaleTFjS6BEpW7qpnc9Sj7f6eahbu_F/view?usp=sharing"
+            href="https://drive.google.com/file/d/121heBw_G5bXy5rVdsJvAB4QasTvu8fzo/view?usp=sharing"
             isExternal
           >
             CV
